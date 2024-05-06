@@ -23,7 +23,7 @@
 
 - attributes + children
 
-  ## 7.**what does createElement do?**
+  7.**what does createElement do?**
 
   <!-- {
   "type": "h1",
@@ -42,20 +42,30 @@
 
 - it takes react element object as argument and convert it into something that browser understand.
 
-  9.**what is crossorigin?** -<script
-                crossorigin
-                src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-              ></script>
-  -You can use the following <script> element to tell a browser to execute the https://example.com/example-framework.js script without sending user-credentials.
+  9.**what is crossorigin?**
+  `<script
+  crossorigin
+  src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+
+  > </script>`
+  > -You can use the following element to tell a browser to execute the https://example.com/example-framework.js script without sending user-credentials.
 
   10.**why it is library rather then framework?**
   -answer lies here!
   -you can start working small portion in any project, this is beauty of library
 
-- <h1>hello heaeder</h1>
+`<h1>hello heaeder</h1>
     <div id="root">
       <h1>jaimeen is here</h1>
       <!-- it will be replaced by render method -->
       <!-- try to play with code, have curiocity -->
     </div>
-    <h1>hello footer</h1>
+    <h1>hello footer</h1>`
+
+10. **what is motive of lecture two?**
+
+- current code is not production ready code, why?
+- creating own small create-react-app
+
+11. **can react it self create fast production ready app?**
+    -no. there are lot of other code, library, packages to make it fast, not just react.
